@@ -1,0 +1,22 @@
+[
+  {
+    "username": "bartender",
+    "password": "bartender",
+    "role": "bartender"
+  },
+  {
+    "username": "server",
+    "password": "server",
+    "role": "server"
+  },
+  {
+    "username": "kitchen",
+    "password": "kitchen",
+    "role": "kitchen"
+  },
+  {
+    "username": "admin",
+    "password": "password",
+    "role": "admin"
+  }
+]

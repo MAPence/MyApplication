@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <View
+        android:id="@+id/coloredBox1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/burntOrange"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/aLayoutButton"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Taproom Layout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/aSyscoOrderButton"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Sysco Ordering"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <Button
+        android:id="@+id/aInventoryButton"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Inventory"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <TextView
+        android:id="@+id/welcomeTextView2"
+        android:layout_width="382dp"
+        android:layout_height="58dp"
+        android:text="Menu Settings"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/coloredBox1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/coloredBox1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <View
+        android:id="@+id/coloredBox2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/burntOrange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
